@@ -1,3 +1,132 @@
 * {
   font-family: sans-serif;
 }
+
+body {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+ul.navLeft {
+  padding-top: 30px;
+  display: inline-block;
+}
+
+li.navLeft {
+  float: left;
+  padding: 2.5px;
+}
+
+ul.navRight {
+  padding-top: 40px;
+  display: inline-block;
+  float: right;
+}
+
+li.navRight {
+  float: right;
+  padding: 1px;
+}
+
+hr {
+  padding: 5px;
+  background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
+}
+
+main {
+  padding-top: 30px;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+li.date {
+  float: left;
+  font-size: 12px;
+}
+
+li.print {
+  float: right;
+  font-size: 12px;
+}
+
+img.banner {
+  padding-top: 25px;
+}
+
+p.mainP {
+  padding-top: 25px;
+  text-indent: 30px;
+}
+
+section.ingredientList {
+  margin-top: 30px;
+  width: 900px;
+  height: 300px;
+  background-image: url(http://placehold.it/900x300/);
+  margin-bottom: 30px;
+}
+
+ul.ingredientList {
+  display: inline-block;
+  padding: 100px;
+}
+
+section.footer {
+  display: block;
+  height: 200px;
+  margin-top:20px;
+}
+
+section.van {
+  max-width: 500px;
+  padding-left: 10px;
+}
+
+h4 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button {
+  margin-top: 10px;
+  font-weight: lighter;
+  float: right;
+  background-color: #73751a;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ul.footer {
+  display: inline-block;
+}
+
+li.footer {
+  display: inline-block;
+  float: left;
+}
