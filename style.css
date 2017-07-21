@@ -38,7 +38,7 @@ li.navRight {
   padding: 1px;
 }
 
-hr {
+hr.lines {
   padding: 5px;
   background: repeating-linear-gradient(
   45deg,
@@ -129,4 +129,16 @@ ul.footer {
 li.footer {
   display: inline-block;
   float: left;
+}
+
+img.endLogo {
+  display: block;
+  margin: auto;
+  position: relative;
+  top: -30px;
+  border: 4px solid white;
+}
+
+p.copywrite {
+  text-align: center;
 }
